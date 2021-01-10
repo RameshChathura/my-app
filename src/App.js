@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Namelist from "./components/NameList/NameList";
+import React from "react";
+import NameList from "./components/NameList/NameList";
 
 function App() {
   return (
-    <div className="App">
-      <Namelist />
+    <div>
+      <NameList />
     </div>
   );
 }
