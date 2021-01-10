@@ -1,12 +1,10 @@
 import React from "react";
-import Card from "./card";
-import Card1 from "./components/card1";
+import NameList from "./components/NameList/NameList";
 
 function App() {
   return (
     <div>
-      <Card />
-      <Card1 />
+      <NameList />
     </div>
   );
 }
